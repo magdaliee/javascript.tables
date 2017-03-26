@@ -14,10 +14,10 @@ console.log( allNames );
 
 // 8.9 choinka 
 function rysujChoinke(n) {
-	for ( var k = 0 ; k < n; k++) {
-		var star = ' ';
-			for ( var j = 0 ; j < k*2-1; j++) {
-				var star = star + '*';
+	for ( var k = 1 ; k < n; k++) {
+		var star = '*';
+			for ( var j = 1 ; j < k*2-1; j++) {
+				star  += '*';
 			}
 			console.log(star);
 	}
